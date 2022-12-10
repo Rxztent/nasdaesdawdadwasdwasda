@@ -1,6 +1,7 @@
 local DiscordLib =
     loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
     DiscordLib:Notification("Notification", "This script is made for lumber unsecure, its made to copy the item names to your clipboard to then paste them into the item spawner which is included in the script but for the item spawner you have to place a blueprint then enter the item name into the textbox then click spawn item", "Okay!")
+    DiscordLib:Notification("Notification", "made by RXZTENT#5168", "Okay!")
 local win = DiscordLib:Window("Item list, made by RXZTENT#5168")
 
 local serv = win:Server("Main", "")
